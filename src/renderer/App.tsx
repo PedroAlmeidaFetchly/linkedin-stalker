@@ -1,8 +1,15 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
 import icon from '../../assets/icon.svg';
 import './App.css';
+import puppeteer from 'puppeteer';
 
 const Hello = () => {
+  const openBrowser = async () => {
+    //const browser = await puppeteer.launch(); //Se descomentar quebra
+    // const page = await browser.newPage();
+    // page.goto("https://www.linkedin.com/feed/")
+  };
+
   return (
     <div>
       <div className="Hello">
@@ -27,7 +34,7 @@ const Hello = () => {
             console.log(window.electron.store.get('foo'));
           }}
         >
-          Click Me!
+          ElectronStore
         </button>
       </div>
     </div>
