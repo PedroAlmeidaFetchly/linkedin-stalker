@@ -48,6 +48,13 @@ To package apps for the local platform:
 npm run package
 ```
 
+## Useful links
+
+- [Official repo](https://www.electronjs.org/docs/latest/tutorial/boilerplates-and-clis)
+- [Electron + React example](https://www.youtube.com/watch?v=oAaS9ix8pes&t=382s)
+- [Electron "Vanilla" example](https://www.youtube.com/watch?v=P1gQ7Ppd48U&t=680s)
+- [Webscrapping Instagram tutorial](https://www.youtube.com/watch?v=zrM7EwUXsYU)
+
 ## Docs
 
 See our [docs and guides here](https://electron-react-boilerplate.js.org/docs/installation)
